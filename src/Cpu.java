@@ -1,4 +1,5 @@
 public class Cpu {
+   //ESTA CLASE ESTA AÑADIDA EN GIT.
    //Estados, atributos, propiedades
    public String brand;
    public String model;
