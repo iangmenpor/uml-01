@@ -3,7 +3,7 @@ public class Cpu {
    //Estados, atributos, propiedades
    public String brand;
    public String model;
-   public Double cost;
+   private Double cost;
    // El comando Double son para nª con decimales. pero para numeros enteros se usa Integer
 
    // Comportamiento o método (funciones)
@@ -21,7 +21,7 @@ public class Cpu {
    public String getModel(){
       return model;
    }
-   public Double getCost(){
+   private Double getCost(){
       return cost;
    }
 

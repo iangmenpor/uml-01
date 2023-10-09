@@ -1,7 +1,7 @@
 public class RAM {
     public String brand;
     public String capacity;
-    public Double price;
+    private Double price;
 
     public String getFullName() {
         return brand + " " + capacity + " " + price;
@@ -15,7 +15,7 @@ public class RAM {
         return capacity;
     }
 
-    public Double getPrice() {
+    private Double getPrice() {
         return price;
     }
 }

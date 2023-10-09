@@ -1,7 +1,7 @@
 public class Tower {
     public String brand;
     public String model;
-    public Double price;
+    private Double price;
 
     public String getFullName() {
         return brand + " " + model + " " + price;
@@ -15,7 +15,7 @@ public class Tower {
         return model;
     }
 
-    public Double getPrice() {
+    private Double getPrice() {
         return price;
     }
 }

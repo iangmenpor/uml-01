@@ -1,14 +1,14 @@
 public class MotherBoard {
-    public String brand;
+    public Integer id;
     public String model;
     public Double price;
 
     public String getFullName() {
-        return brand + " " + model + " " + price;
+        return id + " " + model + " " + price;
     }
 
     public String getDeveloper() {
-        return brand;
+        return id;
     }
 
     public String getModel() {
@@ -18,5 +18,12 @@ public class MotherBoard {
     public Double getPrice() {
         return price;
     }
+
+
+    public void setId(Integer id){ this.id = id; }
+
+    public void setModel(String model) { this.model = model; }
+
+    public void setPrice(Double price) { this.price = price;}
 
 }
