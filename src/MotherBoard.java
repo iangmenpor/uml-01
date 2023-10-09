@@ -8,7 +8,8 @@ public class MotherBoard {
     }
 
     public String getDeveloper() {
-        return id;
+        return
+                id;
     }
 
     public String getModel() {
